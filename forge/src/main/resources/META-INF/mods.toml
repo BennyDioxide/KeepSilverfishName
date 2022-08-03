@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[41,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "keepsilverfishname"
+version = "${version}"
+displayName = "KeepSilverfishName"
+authors = "BennyDioxide"
+description = '''
+Keep the silverfishes' name in infesting!
+'''
+#logoFile = ""
+
+[[dependencies.keepsilverfishname]]
+modId = "forge"
+mandatory = true
+versionRange = "[41,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.keepsilverfishname]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19,)"
+ordering = "NONE"
+side = "BOTH"

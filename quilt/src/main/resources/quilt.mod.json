@@ -1,7 +1,6 @@
 {
   "schema_version": 1,
   "mixin": [
-    "keepsilverfishname.mixins.json",
     "keepsilverfishname-common.mixins.json"
   ],
   "quilt_loader": {

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "keepsilverfishname",
+  "version": "${version}",
+  "name": "KeepSilverfishName",
+  "description": "Keep the silverfishes' name in infesting!",
+  "authors": [
+    "BennyDioxide"
+  ],
+  "contact": {
+    "homepage": "https://bennydioxide.github.io/",
+    "sources": "https://github.com/BennyDioxide/KeepSilverfishName"
+  },
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "io.github.bennydioxide.keepsilverfishname.fabric.KeepSilverfishNameFabric"
+    ]
+  },
+  "mixins": [
+    "keepsilverfishname-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19"
+  }
+}
