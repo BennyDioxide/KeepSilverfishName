@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "mixin": [
+    "keepsilverfishname.mixins.json",
+    "keepsilverfishname-common.mixins.json"
+  ],
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "keepsilverfishname",
+    "version": "${version}",
+    "name": "KeepSilverfishName",
+    "description": "Keep the silverfishes' name in infesting!",
+    "authors": ["BennyDioxide"],
+    "contact": {
+      "sources": "https://github.com/BennyDioxide/KeepSilverfishName"
+    },
+    "license": "MIT",
+    "icon": "assets/examplemod/icon.png",
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "environment": "server",
+    "entrypoints": {
+      "init": [
+        "io.github.bennydioxide.keepsilverfishname.quilt.KeepSilverfishNameQuilt"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.19"
+      }
+    ]
+  }
+}
