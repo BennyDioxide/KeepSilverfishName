@@ -14,7 +14,6 @@
       "sources": "https://github.com/BennyDioxide/KeepSilverfishName"
     },
     "license": "MIT",
-    "icon": "assets/examplemod/icon.png",
     "intermediate_mappings": "net.fabricmc:intermediary",
     "environment": "server",
     "entrypoints": {
